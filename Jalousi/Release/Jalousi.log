@@ -1,0 +1,41 @@
+﻿Сборка начата 10.10.2015 21:43:19.
+     1>Проект "C:\Users\Kirya_000\Documents\Arduino\Jalousi\Jalousi.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\standard" /IC:\Users\Kirya_000\Documents\Arduino\Jalousi /I"C:\Users\Kirya_000\Documents\Arduino\libraries\DS3232RTC-master" /I"C:\Users\Kirya_000\Documents\Arduino\libraries\DS3232RTC-master\utility" /IC:\Users\Kirya_000\Documents\Arduino\libraries\EEPROMEx /IC:\Users\Kirya_000\Documents\Arduino\libraries\EEPROMEx\utility /IC:\Users\Kirya_000\Documents\Arduino\libraries\PCF8574 /IC:\Users\Kirya_000\Documents\Arduino\libraries\PCF8574\utility /IC:\Users\Kirya_000\Documents\Arduino\libraries\Time /IC:\Users\Kirya_000\Documents\Arduino\libraries\Time\utility /IC:\Users\Kirya_000\Documents\Arduino\libraries\Wire /IC:\Users\Kirya_000\Documents\Arduino\libraries\Wire\utility /I"C:\Program Files (x86)\Arduino\libraries" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries" /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\jdvppo2w.dhi\Micro Platforms\default\debuggers" /IC:\Users\Kirya_000\Documents\Arduino\libraries /I"C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/" /I"C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/" /I"C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include" /Zi /nologo /W3 /WX- /sdl /Od /Oi /Oy- /D __AVR_ATmega328p__ /D __AVR_ATmega328P__ /D F_CPU=16000000L /D ARDUINO=165 /D ARDUINO_AVR_UNO /D ARDUINO_ARCH_AVR /D __cplusplus /D _MBCS /X /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /FIC:\Users\Kirya_000\Documents\Arduino\Jalousi\__vm\.Jalousi.vsarduino.h /analyze- /errorReport:prompt motor.cpp
+         motor.cpp
+     1>c1xx : warning C4117: имя макроопределения "__cplusplus" зарезервировано, пропуск "#define"
+     1>C:\Users\Kirya_000\Documents\Arduino\Jalousi\__vm\.Jalousi.vsarduino.h(13): warning C4005: __AVR_ATmega328p__: изменение макроопределения
+                 аргументы командной строки:  см. предыдущее определение "__AVR_ATmega328p__"
+     1>C:\Users\Kirya_000\Documents\Arduino\Jalousi\__vm\.Jalousi.vsarduino.h(14): warning C4005: __AVR_ATmega328P__: изменение макроопределения
+                 аргументы командной строки:  см. предыдущее определение "__AVR_ATmega328P__"
+     1>C:\Users\Kirya_000\Documents\Arduino\Jalousi\__vm\.Jalousi.vsarduino.h(17): warning C4005: ARDUINO_AVR_UNO: изменение макроопределения
+                 аргументы командной строки:  см. предыдущее определение "ARDUINO_AVR_UNO"
+     1>C:\Users\Kirya_000\Documents\Arduino\Jalousi\__vm\.Jalousi.vsarduino.h(18): warning C4005: ARDUINO_ARCH_AVR: изменение макроопределения
+                 аргументы командной строки:  см. предыдущее определение "ARDUINO_ARCH_AVR"
+     1>C:\Users\Kirya_000\Documents\Arduino\Jalousi\__vm\.Jalousi.vsarduino.h(19): warning C4117: имя макроопределения "__cplusplus" зарезервировано, пропуск "#define"
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: size_t: переопределение; различные базовые типы
+                 predefined C++ types (compiler internal)(19): см. объявление "size_t"
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: слишком много фактических параметров для макроопределения "__asm__"
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr/pgmspace.h(1187): error C2446: :: нет преобразования "size_t" в "const char *"
+                 Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: byte: переопределение; различные базовые типы
+                 C:\Users\Kirya_000\Documents\Arduino\Jalousi\__vm\.Jalousi.vsarduino.h(63): см. объявление "byte"
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.h(127): error C2535: size_t HardwareSerial::write(uint8_t): функция-член уже определена или объявлена
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\HardwareSerial.h(124): см. объявление "HardwareSerial::write"
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr/eeprom.h(684): error C4980: __value: для использования этого ключевого слова необходим параметр командной строки /clr:oldSyntax
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr/eeprom.h(684): error C2059: синтаксическая ошибка: __value
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr/eeprom.h(689): error C2059: синтаксическая ошибка: __value
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr/eeprom.h(694): error C2059: синтаксическая ошибка: __value
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr/eeprom.h(699): error C2059: синтаксическая ошибка: __value
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr/eeprom.h(711): error C2059: синтаксическая ошибка: __value
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr/eeprom.h(716): error C2059: синтаксическая ошибка: __value
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr/eeprom.h(721): error C2059: синтаксическая ошибка: __value
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\avr/eeprom.h(726): error C2059: синтаксическая ошибка: __value
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\util/delay_basic.h(88): error C2065: __asm__: необъявленный идентификатор
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\util/delay_basic.h(110): error C2065: __asm__: необъявленный идентификатор
+     1>C:\Program Files (x86)\Arduino\hardware\tools\avr\avr\include\util/delay.h(95): fatal error C1021: недопустимая команда препроцессора "warning"
+     1>Сборка проекта "C:\Users\Kirya_000\Documents\Arduino\Jalousi\Jalousi.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:00.33
